@@ -21,12 +21,6 @@ body {
     margin: 0px 166px;
 }
 
-/* .header {
-    background-image: url(img/i.webp);
-    height: 100vh;
-    background-repeat: no-repeat;
-    background-size: cover;
-} */
 .header__line {
     padding-top: 50px;
     display: flex;
