@@ -71,17 +71,29 @@ body {
     display: block;
     font-size: 19px;
     color: #fff;
-    animation: text 3s 1;
+    animation: text 5s 1;
     padding-bottom: 5px;
 }
 
 @keyframes text {
     0% {
-        color: rgb(104, 103, 103);
+        /* color: rgb(104, 103, 103); */
+        opacity: 0;
     }
 
     30% {
         letter-spacing: 1px;
+        opacity: 0.3;
+    }
+
+    60% {
+        letter-spacing: 1px;
+        opacity: 0.5;
+    }
+
+    90% {
+        letter-spacing: 1px;
+        opacity: 1;
     }
 }
 
@@ -147,35 +159,42 @@ body {
     0% {
         width: 420px;
         height: 320px;
+        opacity: 0;
     }
 
     30% {
         width: 430px;
         height: 325px;
+        opacity: 0.1;
     }
 
     60% {
         width: 420px;
         height: 320px;
+        opacity: 0.5;
     }
 
     100% {
         width: 400px;
         height: 300px;
+        opacity: 1;
     }
 }
 
 @keyframes text2 {
     0% {
         top: 93%;
+        opacity: 0;
     }
 
     30% {
         top: 95%;
+        opacity: 0.5;
     }
 
     70% {
         top: 93%;
+        opacity: 1;
     }
 }
 
@@ -300,3 +319,99 @@ body {
 }
 
 /* end naprawt.html */
+/* css CZĘŚCI.html */
+.czesci__contaiter {
+    height: 100%;
+}
+
+.czesci__img1 {
+    width: 350px;
+    height: 300px;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+}
+
+.czesci__text1 {
+    position: absolute;
+    color: #fff;
+    top: 36%;
+    left: 10%;
+}
+
+.czesci__img2 {
+    width: 350px;
+    height: 300px;
+    position: absolute;
+    top: 5%;
+    left: 30%;
+}
+
+.czesci__text2 {
+    position: absolute;
+    color: #fff;
+    top: 36%;
+    left: 30%;
+}
+
+.czesci__img3 {
+    width: 350px;
+    height: 300px;
+    position: absolute;
+    top: 5%;
+    left: 60%;
+}
+
+.czesci__text3 {
+    position: absolute;
+    color: #fff;
+    top: 36%;
+    left: 65%;
+}
+
+.czesci__img4 {
+    width: 350px;
+    height: 300px;
+    position: absolute;
+    top: 40%;
+    left: 5%;
+}
+
+.czesci__text4 {
+    position: absolute;
+    color: #fff;
+    top: 71%;
+    left: 8%;
+}
+
+.czesci__img5 {
+    width: 350px;
+    height: 300px;
+    position: absolute;
+    top: 40%;
+    left: 30%;
+}
+
+.czesci__text5 {
+    position: absolute;
+    color: #fff;
+    top: 71%;
+    left: 36%;
+}
+
+.czesci__img6 {
+    width: 350px;
+    height: 300px;
+    position: absolute;
+    top: 40%;
+    left: 60%;
+}
+
+.czesci__text6 {
+    position: absolute;
+    color: #fff;
+    top: 71%;
+    left: 65%;
+}
+
+/* end css CZĘŚCI.html */
