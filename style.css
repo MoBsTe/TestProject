@@ -265,6 +265,9 @@ body {
 .guruweba_example_form {
     text-align: justify;
     position: absolute;
+    padding: 14px 18px;
+    background-color: rgba(105, 89, 89, 0.3);
+    border-radius: 10px;
     top: 35%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -295,7 +298,6 @@ body {
 /* css naprawt.html */
 .container2 {
     display: block;
-    background-color: rgba(105, 89, 89, 0.3);
     width: 500px;
     height: 400px;
     text-align: center;
@@ -304,18 +306,40 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     border-radius: 10px;
+    background-color: rgba(105, 89, 89, 0.3);
 }
 
 .first__text {
     display: block;
-    color: black;
+    font-weight: 700;
     margin-top: 20px;
     margin-bottom: 20px;
 }
 
 .second__text {
     padding-left: 10px;
+    font-weight: 700;
     text-align: left;
+}
+
+.home__napr {
+    color: #fff;
+    text-decoration: none;
+    padding: 14px 18px;
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 5px;
+    border-radius: 20px;
+    background-color: rgba(109, 83, 59, 0.5);
+    transition: background-color 0.3s linear;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.home__napr:hover {
+    background-color: rgba(105, 89, 89, 1);
 }
 
 /* end naprawt.html */
@@ -352,7 +376,7 @@ body {
     position: absolute;
     color: #fff;
     top: 36%;
-    left: 30%;
+    left: 28%;
 }
 
 .czesci__img3 {
@@ -415,4 +439,155 @@ body {
     left: 65%;
 }
 
+.home {
+    color: #fff;
+    text-decoration: none;
+    padding: 14px 18px;
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 5px;
+    border-radius: 20px;
+    background-color: rgba(109, 83, 59, 0.5);
+    transition: background-color 0.3s linear;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+}
+
+.home:hover {
+    background-color: rgba(105, 89, 89, 1);
+}
+
 /* end css CZĘŚCI.html */
+/* css holowanie.html */
+.img1h {
+    width: 350px;
+    height: 300px;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+}
+
+.text1h {
+    position: absolute;
+    color: #fff;
+    top: 36%;
+    left: 10%;
+}
+
+.img2h {
+    width: 350px;
+    height: 300px;
+    position: absolute;
+    top: 5%;
+    left: 30%;
+}
+
+.text2h {
+    position: absolute;
+    color: #fff;
+    top: 36%;
+    left: 36%;
+}
+
+.img3h {
+    width: 350px;
+    height: 300px;
+    position: absolute;
+    top: 5%;
+    left: 60%;
+}
+
+.text3h {
+    position: absolute;
+    color: #fff;
+    top: 36%;
+    left: 67%;
+}
+
+.img4h {
+    width: 350px;
+    height: 300px;
+    position: absolute;
+    top: 40%;
+    left: 5%;
+}
+
+.text4h {
+    position: absolute;
+    color: #fff;
+    top: 72%;
+    left: 10%;
+}
+
+.img5h {
+    width: 350px;
+    height: 300px;
+    position: absolute;
+    top: 40%;
+    left: 30%;
+}
+
+.text5h {
+    position: absolute;
+    color: #fff;
+    top: 72%;
+    left: 36%;
+}
+
+.img6h {
+    width: 350px;
+    height: 300px;
+    position: absolute;
+    top: 40%;
+    left: 60%;
+}
+
+.text6h {
+    position: absolute;
+    color: #fff;
+    top: 72%;
+    left: 67%;
+}
+
+.ph {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.ph2 {
+    position: absolute;
+    top: 84%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.homeh {
+    color: #fff;
+    text-decoration: none;
+    padding: 14px 18px;
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 5px;
+    background-color: rgba(109, 83, 59, 0.5);
+    border-radius: 20px;
+    transition: background-color 0.3s linear;
+    position: absolute;
+    top: 89%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.homeh:hover {
+    background-color: rgb(105, 95, 89);
+}
+
+/* end css holowaniie.html */
