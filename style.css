@@ -125,13 +125,13 @@ body {
     position: absolute;
     animation: img 3s 1;
     top: 60%;
-    left: 45%;
+    left: 43%;
 }
 
 .p2 {
     position: absolute;
     top: 93%;
-    left: 49%;
+    left: 47%;
     font-size: 24px;
     animation: text2 3s 1;
     color: #fff;
@@ -461,7 +461,7 @@ body {
 /* end css CZĘŚCI.html */
 /* css holowanie.html */
 .img1h {
-    width: 350px;
+    width: 400px;
     height: 300px;
     position: absolute;
     top: 5%;
@@ -472,11 +472,11 @@ body {
     position: absolute;
     color: #fff;
     top: 36%;
-    left: 10%;
+    left: 13%;
 }
 
 .img2h {
-    width: 350px;
+    width: 400px;
     height: 300px;
     position: absolute;
     top: 5%;
@@ -487,11 +487,11 @@ body {
     position: absolute;
     color: #fff;
     top: 36%;
-    left: 36%;
+    left: 38%;
 }
 
 .img3h {
-    width: 350px;
+    width: 400px;
     height: 300px;
     position: absolute;
     top: 5%;
@@ -506,7 +506,7 @@ body {
 }
 
 .img4h {
-    width: 350px;
+    width: 400px;
     height: 300px;
     position: absolute;
     top: 40%;
@@ -517,11 +517,11 @@ body {
     position: absolute;
     color: #fff;
     top: 72%;
-    left: 10%;
+    left: 13%;
 }
 
 .img5h {
-    width: 350px;
+    width: 400px;
     height: 300px;
     position: absolute;
     top: 40%;
@@ -532,11 +532,11 @@ body {
     position: absolute;
     color: #fff;
     top: 72%;
-    left: 36%;
+    left: 38%;
 }
 
 .img6h {
-    width: 350px;
+    width: 400px;
     height: 300px;
     position: absolute;
     top: 40%;
